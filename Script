@@ -1,0 +1,3 @@
+-- View information about the WSFC cluster that SQL Server is connected to
+SELECT *
+FROM master.sys.dm_hadr_cluster;
